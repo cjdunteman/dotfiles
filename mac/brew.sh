@@ -24,6 +24,7 @@ brew cask install visual-studio-code
 brew cask install microsoft-word
 brew cask install microsoft-outlook
 brew cask install microsoft-excel
+brew cask install microsoft-powerpoint
 brew cask install discord
 brew cask install pycharm
 brew cask install intellij-idea
