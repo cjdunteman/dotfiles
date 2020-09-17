@@ -13,6 +13,7 @@ brew install pyenv
 brew install node
 brew install mamp
 brew install postgresql
+brew install gh
 
 # Install Apps
 brew cask install google-chrome
