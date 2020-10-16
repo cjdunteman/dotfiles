@@ -3,7 +3,6 @@ set autoindent
 set expandtab
 set smarttab 
 set tabstop=4 
-set softtabstop=4
 set smartindent
 set shiftwidth=4 " make tab key 4 spaces
 set encoding=utf-8
