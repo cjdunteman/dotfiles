@@ -34,3 +34,5 @@ alias ga.="git add ."
 alias gc="git commit -m $1"
 alias gp="git push"
 alias gpo="git push origin $1"
+
+alias lg="lazygit"

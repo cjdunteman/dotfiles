@@ -14,6 +14,7 @@ brew install node
 brew install mamp
 brew install postgresql
 brew install gh
+brew install lazygit
 
 # Install Apps
 brew cask install google-chrome

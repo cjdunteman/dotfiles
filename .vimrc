@@ -18,7 +18,3 @@ set nocompatible
 set nomodeline
 
 set colorcolumn=80
-highlight ColorColumn
-
-packadd! dracula
-colorscheme dracula
