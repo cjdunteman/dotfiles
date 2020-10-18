@@ -1,9 +1,10 @@
 #!/bin/bash
 
+rm -rf ~/.vimrc
 ln -sv ~/repos/dotfiles/.vimrc ~
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-	source linux/setup.sh
+	source linux/linux_setup.sh
 elif [[ "$OSTYPE" == "darwin"* ]]; then
-	source mac/setup.sh
+	source mac/mac_setup.sh
 fi
