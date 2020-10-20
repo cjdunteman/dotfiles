@@ -1,0 +1,21 @@
+name: main
+
+# Run on every push or pull request on the master branch.
+on:
+    push:
+        branches: [ master ]
+    pull-request:
+        branches: [ master ]
+
+jobs:
+    # Job for testing on linux
+    linux:
+        runs-on: ubuntu-latest
+        steps:
+            run: ./install.sh
+
+    # Job for testing on macOS
+    darwin:
+        runs-on: macOS-latest
+        steps:
+            run: ./install.sh

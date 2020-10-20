@@ -1,7 +1,7 @@
 #!/bin/bash
 
-rm -rf ~/.vimrc
-ln -sv ~/repos/dotfiles/.vimrc ~
+rm -rf ~/.vim
+ln -sv ~/repos/dotfiles/.vim/ ~
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 	source linux/linux_setup.sh
