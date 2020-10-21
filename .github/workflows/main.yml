@@ -12,10 +12,10 @@ jobs:
     linux:
         runs-on: ubuntu-latest
         steps:
-        - run: sh install.sh
+        - run: sh ./install.sh
 
     # Job for testing on macOS
     darwin:
         runs-on: macOS-latest
         steps:
-        - run: sh install.sh
+        - run: sh ./install.sh
