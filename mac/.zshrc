@@ -1,5 +1,8 @@
 # Specify default editor. Possible values: vim, nano, ed etc.
 
+export GPG_TTY=$(tty)
+gpgconf --launch gpg-agent
+
 # Java
 export JAVA_HOME=$(/usr/libexec/java_home)
 
