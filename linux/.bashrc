@@ -2,6 +2,9 @@
 # 
 # My bash config.
 
+# add packages installed using --user
+PATH="$HOME/.local/bin:$PATH"
+
 # file navigation
 alias ..='cd ..'
 

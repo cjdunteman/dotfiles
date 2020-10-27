@@ -1,15 +1,7 @@
 set shell=/bin/sh
 
 " Plugins
-call plug#begin('~/.vim/plugged')
-
-Plug 'scrooloose/nerdtree'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'valloric/youcompleteme'
-Plug 'fatih/vim-go'
-
-call plug#end()
+packloadall
 
 " General Settings
 set noerrorbells
