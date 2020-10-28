@@ -5,7 +5,7 @@ rm -rf ~/.zshrc
 ln -sv ~/repos/dotfiles/mac/.zshrc ~
 
 # Run brew commands
-source ./brew.sh
+source brew.sh
 
 # Run npm commands
-source ./npm.sh
+source npm.sh
