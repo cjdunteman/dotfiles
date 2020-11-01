@@ -13,11 +13,11 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - uses: actions/checkout@v2
-        - run: sh ./install.sh
+        - run: sh install.sh
 
     # Job for testing on macOS
     darwin:
         runs-on: macOS-latest
         steps:
         - uses: actions/checkout@v2
-        - run: sh ./install.sh
+        - run: sh install.sh
