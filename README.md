@@ -1,5 +1,5 @@
-![Ubuntu](https://github.com/cjdunteman/dotfiles/workflows/ubuntu/badge.svg)
-![macOS](https://github.com/cjdunteman/dotfiles/workflows/macos/badge.svg)
+[![Ubuntu](https://github.com/cjdunteman/dotfiles/actions/workflows/ubuntu.yml/badge.svg)](https://github.com/cjdunteman/dotfiles/actions/workflows/ubuntu.yml)
+[![macOS](https://github.com/cjdunteman/dotfiles/actions/workflows/macos.yml/badge.svg)](https://github.com/cjdunteman/dotfiles/actions/workflows/macos.yml)
 
 # Dotfiles
 
