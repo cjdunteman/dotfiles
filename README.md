@@ -1,7 +1,8 @@
+# [CJ](https://www.github.com/cjdunteman)'s dotfiles
+
 [![Ubuntu](https://github.com/cjdunteman/dotfiles/actions/workflows/ubuntu.yml/badge.svg)](https://github.com/cjdunteman/dotfiles/actions/workflows/ubuntu.yml)
 [![macOS](https://github.com/cjdunteman/dotfiles/actions/workflows/macos.yml/badge.svg)](https://github.com/cjdunteman/dotfiles/actions/workflows/macos.yml)
-
-# Dotfiles
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/NocoDB.svg?style=social&label=Follow%20Me!)](https://twitter.com/cjdunteman)
 
 These are my dotfiles for Ubuntu and MacOS.
 
@@ -9,7 +10,11 @@ These are my dotfiles for Ubuntu and MacOS.
 
 Ubuntu:
 
-`bash -c "$(wget https://raw.githubusercontent.com/cjdunteman/dotfiles/master/ubuntu/install.sh)`
+`bash -c "$(wget -qO - https://raw.github.com/cjdunteman/dotfiles/install.sh)`
+
+macOS:
+
+`bash -c "$(curl -LsS https://raw.github.com/cjdunteman/dotfiles/install.sh)"`
 
 #### Git
 
@@ -28,3 +33,10 @@ Manage commit signature following [these instructions](https://docs.github.com/e
 Sign all commits by default
 
 `git config --global commit.gpgsign true`
+
+## Acknowledgements
+
+Thanks to these resources for inspiration:
+
+* [Mathias Bynens](https://github.com/mathiasbynens/dotfiles)' dotfiles
+* [Cătălin](https://github.com/alrra/dotfiles)'s dotfiles

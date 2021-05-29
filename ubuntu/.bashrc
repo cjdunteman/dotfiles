@@ -18,6 +18,3 @@ alias gpush='git push origin'
 alias gs='git status'
 alias ga='ga'
 alias lg='lazygit'
-
-# arch
-alias pacs='sudo pacman -S'
