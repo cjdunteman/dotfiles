@@ -3,10 +3,11 @@ name: macOS
 # Run on every push or pull request on the master branch.
 on:
     push:
-        branches: [ master ]
+        branches:
+            - master
     pull_request:
-        branches: [ master ]
-
+        branches:
+            - master
 jobs:
     # Job for testing on macOS
     darwin:
