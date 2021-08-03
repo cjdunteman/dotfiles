@@ -8,4 +8,4 @@ ln -sv ~/repos/dotfiles/mac/.zshrc ~
 source mac/brew.sh
 
 # Run npm commands
-source ./npm.sh
+source mac/npm.sh
