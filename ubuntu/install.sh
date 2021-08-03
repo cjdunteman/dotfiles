@@ -1,4 +1,4 @@
-printf "Starting Ubuntu install script."
+printf "STARTING UNBUNTU INSTALL SCRIPT."
 
 sudo apt install vim
 sudo apt install xclip
