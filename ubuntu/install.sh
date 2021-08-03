@@ -46,4 +46,4 @@ sudo snap install htop
 # configurations
 git config --global core.editor "vim"
 
-source symlinks.sh
+source ubuntu/symlinks.sh
