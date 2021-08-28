@@ -8,6 +8,7 @@ sudo apt install tree
 sudo apt install curl
 sudo apt install wget
 sudo apt install gnupg
+sudo apt install bat
 
 # java
 sudo apt install openjdk-11-jdk
@@ -23,7 +24,8 @@ npm install -g gatsby-cli
 # python packages
 sudo apt install python3-pip
 pip3 install --user --upgrade pip
-pip3 install --user --upgrade jupyter
+pip3 install jupyterlab
+pip3 install tensorflow
 
 # docker
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
@@ -32,16 +34,20 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo docker run hello-world
 
-# applications
-sudo snap install discord
+# add user to docker group
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+
+# ides and editors
 sudo snap install --classic code
+
+# other applications
+sudo snap install discord
 wget https://downloads.slack-edge.com/linux_releases/slack-desktop-4.0.2-amd64.deb
 sudo apt install ./slack-desktop-*.deb
 sudo snap install spotify
 sudo snap install bitwarden
-
-# other
-sudo snap install htop
 
 # configurations
 git config --global core.editor "vim"
