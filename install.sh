@@ -11,3 +11,11 @@ then
 else
     printf "This script is only for macOS or Ubuntu."
 fi
+
+# Proceeding to universal install
+
+# Install rustup
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+# Build Foundry from source
+cargo install --git https://github.com/gakonst/foundry --bins --locked
