@@ -26,4 +26,5 @@ set nomodeline
 set colorcolumn=80
 
 " Key Mappings
+:inoremap jj <ESC>
 map <C-n> :NERDTreeToggle<CR>

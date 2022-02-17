@@ -11,6 +11,8 @@ brew install tree
 brew install pyenv
 brew install node
 brew install gh
+brew install starship
+brew install bat
 
 # Install casks
 brew install --cask brave-browser
