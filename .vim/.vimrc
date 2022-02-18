@@ -28,3 +28,21 @@ set colorcolumn=80
 " Key Mappings
 :inoremap jj <ESC>
 map <C-n> :NERDTreeToggle<CR>
+
+" Autoload plugins
+let data_dir = has('nvim') ? stdpath('data') . '/site': '~/.vim'
+if empty(glob(data_dir . '/autoload/plug.vim'))
+    silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-
+    plug/master/plug.vim'
+    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+ 
+ call plug#begin()
+ Plug 'tpope/vim-fugitive'
+ Plug 'vim-airline/vim-airline'
+ Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
+ 
+ Plug 'dracula/vim', { 'as': 'dracula' }
+ call plug#end()
+ 
+ colorscheme dracula
