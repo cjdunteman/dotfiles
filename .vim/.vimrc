@@ -41,6 +41,7 @@ endif
  Plug 'tpope/vim-fugitive'
  Plug 'vim-airline/vim-airline'
  Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
+ Plug 'rust-lang/rust.vim'
  
  Plug 'dracula/vim', { 'as': 'dracula' }
  call plug#end()
