@@ -3,6 +3,9 @@ printf "Beginning brew script"
 # Install HomeBrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
+# Update Homebrew
+brew update
+
 # Install formulae
 brew install zsh
 brew install wget
@@ -13,6 +16,7 @@ brew install node
 brew install gh
 brew install starship
 brew install bat
+brew install nvm
 
 # Install casks
 brew install --cask brave-browser

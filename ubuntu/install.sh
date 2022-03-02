@@ -1,5 +1,7 @@
 printf "STARTING UNBUNTU INSTALL SCRIPT."
 
+sudo apt update && sudo apt upgrade
+
 sudo apt install vim
 sudo apt install xclip
 sudo apt install git
@@ -10,9 +12,6 @@ sudo apt install wget
 sudo apt install gnupg
 sudo apt install bat
 
-# java
-sudo apt install openjdk-11-jdk
-
 # rust lang
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
@@ -22,10 +21,10 @@ sudo apt install npm
 npm install -g gatsby-cli
 
 # python packages
-sudo apt install python3-pip
-pip3 install --user --upgrade pip
-pip3 install jupyterlab
-pip3 install tensorflow
+# sudo apt install python3-pip
+# pip3 install --user --upgrade pip
+# pip3 install jupyterlab
+# pip3 install tensorflow
 
 # docker
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
@@ -51,5 +50,3 @@ sudo snap install bitwarden
 
 # configurations
 git config --global core.editor "vim"
-
-source ubuntu/symlinks.sh

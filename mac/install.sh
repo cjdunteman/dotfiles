@@ -1,8 +1,8 @@
 # Install xcode command line tools
 xcode-select --install
 
-touch ~/.zshrc
-ln -sv ~/repos/dotfiles/mac/.zshrc ~
+# Set bash as default
+chsh -s /bin/bash
 
 # Run brew commands
 source mac/brew.sh

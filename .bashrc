@@ -18,3 +18,8 @@ alias gpush='git push origin'
 alias gs='git status'
 alias ga='ga'
 alias lg='lazygit'
+
+# other aliases
+alias bat='batcat'
+
+eval "$(starship init bash)"
