@@ -22,4 +22,6 @@ alias lg='lazygit'
 # other aliases
 alias bat='batcat'
 
+export GPG_TTY=$(tty)
+
 eval "$(starship init bash)"
