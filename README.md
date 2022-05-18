@@ -16,6 +16,11 @@ macOS:
 
 `bash -c "$(curl -LsS https://raw.github.com/cjdunteman/dotfiles/install.sh)"`
 
+## Vim Setup
+- [vim-fugitive](https://github.com/tpope/vim-fugitive)
+- [vim-airline](https://github.com/vim-airline/vim-airline)
+- [nerdtree](https://github.com/preservim/nerdtree)
+
 ## Acknowledgements
 
 Thanks to these resources for inspiration:
