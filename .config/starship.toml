@@ -1,6 +1,19 @@
 # Inserts a blank line between shell prompts
 add_newline = true
 
+# Shows the username
+[username]
+style_user = "white"
+style_root = "white"
+format = "[$user]($style) "
+disabled = false
+show_always = true
+
+[hostname]
+ssh_only = false
+format = "on [$hostname](bold yellow) "
+disabled = false
+
 [aws]
 symbol = "  "
 
@@ -75,4 +88,7 @@ symbol = " "
 
 [swift]
 symbol = "ﯣ "
+
+[terraform]
+format = "via [ terraform $version]($style) 壟 [$workspace]($style) "
 
