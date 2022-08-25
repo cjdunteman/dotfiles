@@ -18,15 +18,5 @@ brew install starship
 brew install bat
 brew install nvm
 
-# Install casks
-brew install --cask brave-browser
-brew install --cask spotify
-brew install --cask visual-studio-code
-brew install --cask microsoft-word
-brew install --cask discord
-brew install --cask postman
-brew install --cask adobe-acrobat-reader
-brew install --cask bitwarden
-
 # Upgrade already-installed formulae.
 brew upgrade

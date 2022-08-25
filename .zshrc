@@ -16,11 +16,13 @@ alias lsa='ls -A'
 alias gpull='git pull origin'
 alias gpush='git push origin'
 alias gs='git status'
-alias ga='ga'
+alias ga='git add'
 alias lg='lazygit'
 
 # other aliases
 alias bat='batcat'
+
+. "$HOME/.cargo/env"
 
 export GPG_TTY=$(tty)
 
