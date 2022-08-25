@@ -2,6 +2,10 @@ printf "STARTING UNBUNTU INSTALL SCRIPT."
 
 sudo apt update && sudo apt upgrade
 
+# Download zsh and set as default shell
+sudo apt install zsh
+chsh -s /usr/bin/zsh
+
 sudo apt install vim
 sudo apt install xclip
 sudo apt install git

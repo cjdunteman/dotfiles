@@ -11,10 +11,8 @@ brew install zsh
 brew install wget
 brew install git
 brew install tree
-brew install pyenv
 brew install node
 brew install gh
-brew install starship
 brew install bat
 brew install nvm
 
