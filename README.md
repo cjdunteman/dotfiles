@@ -4,7 +4,7 @@
 [![macOS](https://github.com/cjdunteman/dotfiles/actions/workflows/macos.yml/badge.svg)](https://github.com/cjdunteman/dotfiles/actions/workflows/macos.yml)
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/NocoDB.svg?style=social&label=Follow%20Me!)](https://twitter.com/cjdunteman)
 
-These are my dotfiles for Ubuntu and MacOS. If you are going to fork this, be aware that there may be stuff you don't want/need on your computer, e.g. Bitwarden desktop app, the Rust programming language, or Node version manager.
+These are my dotfiles for Ubuntu and MacOS. If you are going to fork this, be aware that there may be stuff you don't want/need on your computer, e.g. the Rust programming language, [Starship](https://github.com/starship/starship) or Node version manager.
 
 ## Install
 
