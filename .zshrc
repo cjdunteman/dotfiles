@@ -1,6 +1,7 @@
 # CJ Dunteman
 # 
-# My bash config.
+# My zsh config.
+export PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
 
 # add packages installed using --user
 PATH="$HOME/.local/bin:$PATH"
@@ -20,7 +21,6 @@ alias gs="git status"
 alias gb="git branch"
 alias gpull='git pull origin'
 alias gpush='git push origin'
-<<<<<<< HEAD:.zshrc
 alias gs='git status'
 alias ga='git add'
 alias gc="git commit -m $1"
@@ -34,3 +34,9 @@ alias bat='batcat'
 export GPG_TTY=$(tty)
 
 eval "$(starship init bash)"
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
