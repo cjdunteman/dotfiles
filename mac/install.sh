@@ -1,11 +1,21 @@
 # Install xcode command line tools
 xcode-select --install
 
-# Set bash as default
-chsh -s /bin/bash
+# Install HomeBrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-# Run brew commands
-source mac/brew.sh
+# Update Homebrew
+brew update
 
-# Run npm commands
-source mac/npm.sh
+# Install formulae
+brew install wget
+brew install git
+brew install tree
+brew install curl
+brew install bat
+
+brew install gh
+brew install nvm
+
+# Upgrade already-installed formulae
+brew upgrade

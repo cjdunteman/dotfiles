@@ -1,6 +1,7 @@
 # CJ Dunteman
 # 
 # My zsh config.
+
 export PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
 
 # add packages installed using --user
@@ -33,6 +34,7 @@ alias bat='batcat'
 
 export GPG_TTY=$(tty)
 
+# starship
 eval "$(starship init bash)"
 
 # nvm
