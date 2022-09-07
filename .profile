@@ -8,3 +8,4 @@ fi
 
 # Ignore macOS warning
 export BASH_SILENCE_DEPRECATION_WARNING=1
+. "$HOME/.cargo/env"

@@ -4,7 +4,7 @@
 [![macOS](https://github.com/cjdunteman/dotfiles/actions/workflows/macos.yml/badge.svg)](https://github.com/cjdunteman/dotfiles/actions/workflows/macos.yml)
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/NocoDB.svg?style=social&label=Follow%20Me!)](https://twitter.com/cjdunteman)
 
-These are my dotfiles for Ubuntu and MacOS. If you are going to fork this, be aware that there may be stuff you don't want/need on your computer, e.g. the Rust programming language, [Starship](https://github.com/starship/starship) or Node version manager.
+These are my dotfiles for Ubuntu and MacOS. This will also work for [WSL](https://docs.microsoft.com/en-us/windows/wsl/). If you are going to fork this, be aware that there may be stuff you don't want/need on your computer, e.g. the Rust programming language, [Starship](https://github.com/starship/starship) or Node version manager.
 
 ## Install
 
@@ -21,6 +21,7 @@ macOS:
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [vim-airline](https://github.com/vim-airline/vim-airline)
 - [nerdtree](https://github.com/preservim/nerdtree)
+- [Dracula theme](https://github.com/dracula/vim)
 
 ## Shell Customization
 
