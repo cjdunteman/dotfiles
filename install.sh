@@ -1,3 +1,6 @@
+
+chsh -s $(which zsh)
+
 os_name="$(uname -s)"
 
 if [ "$os_name" == "Darwin" ]
