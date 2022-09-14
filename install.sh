@@ -1,15 +1,11 @@
 
 chsh -s $(which zsh)
 
-os_name="$(uname -s)"
-
-if [ "$os_name" == "Darwin" ]
-then
+if [ "$(uname)" == "Darwin" ]; then
     # MAC INSTALL
     printf "Detected macOS."
     source mac/install.sh
-elif [ "$os_name" == "Linux" ]
-then
+elif [ "$(uname)" == "Linux" ]; then
     # UBUNTU INSTALL
     printf "Detected Ubuntu."
     source ubuntu/install.sh
@@ -31,7 +27,7 @@ ln -s -f .profile ~/.profile
 # git config
 git config --global user.name "CJ Dunteman"
 git config --global user.email cjdunteman@gmail.com
-git config --global core.exclusefile ~/dotfiles/.gitignore # global .gitignore
+git config --global core.excludesfile ~/dotfiles/.gitignore # global .gitignore
 git config --global core.editor vim
 git config --global init.defaultBranch main
 
