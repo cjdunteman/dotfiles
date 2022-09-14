@@ -21,9 +21,9 @@ fi
 #################
 
 # symlinks for dot files
-ln -s -f ~/dotfiles/.vimrc ~/.vimrc
-ln -s -f ~/dotfiles/.zshrc ~/.zshrc
-ln -s -f ~/dotfiles/.profile ~/.profile
+ln -s -f .vimrc ~/.vimrc
+ln -s -f .zshrc ~/.zshrc
+ln -s -f .profile ~/.profile
 
 # git config
 git config --global user.name "CJ Dunteman"
