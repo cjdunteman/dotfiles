@@ -53,3 +53,6 @@ endif
  call plug#end()
  
  colorscheme dracula
+
+ autocmd BufNewFile *.sh 0r ~/dotfiles/skeletons/bash.sh
+ autocmd BufNewFile readme.md 0r ~/dotfiles/skeletons/readme.md

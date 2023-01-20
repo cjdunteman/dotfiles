@@ -21,7 +21,7 @@ fi
 
 # symlinks for dot files
 ln -s -f .vimrc ~/.vimrc
-ln -s -f .zshrc ~/.zshrc
+ln -s -f .bashrc ~/.bashrc
 ln -s -f .profile ~/.profile
 
 # git config
@@ -32,7 +32,7 @@ git config --global core.editor vim
 git config --global init.defaultBranch main
 
 # activate zsh configuration
-source ~/.zshrc
+source ~/.bashrc
 
 # Install rustup
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
