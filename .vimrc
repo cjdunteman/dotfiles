@@ -41,18 +41,14 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
     silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
     autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
- 
+
  call plug#begin()
  Plug 'tpope/vim-fugitive'
  Plug 'vim-airline/vim-airline'
  Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
- Plug 'rust-lang/rust.vim'
- Plug 'TovarishFin/vim-solidity'
- 
- Plug 'dracula/vim', { 'as': 'dracula' }
- call plug#end()
- 
- colorscheme dracula
 
- autocmd BufNewFile *.sh 0r ~/dotfiles/skeletons/bash.sh
+" Skeleton files
  autocmd BufNewFile readme.md 0r ~/dotfiles/skeletons/readme.md
+
+" Markdown syntax highlight
+let g:markdown_fenced_languages = ['html', 'python', 'javascript']
