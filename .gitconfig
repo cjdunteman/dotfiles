@@ -1,0 +1,9 @@
+[commit]
+    gpgsign = true
+[gpg]
+    format = ssh
+[core]
+    editor = vim
+[user]
+    name = CJ Dunteman
+    email = cjdunteman@gmail.com
