@@ -1,20 +1,10 @@
 # [CJ](https://www.github.com/cjdunteman)'s dotfiles
 
-[![Ubuntu](https://github.com/cjdunteman/dotfiles/actions/workflows/ubuntu.yml/badge.svg)](https://github.com/cjdunteman/dotfiles/actions/workflows/ubuntu.yml)
-[![macOS](https://github.com/cjdunteman/dotfiles/actions/workflows/macos.yml/badge.svg)](https://github.com/cjdunteman/dotfiles/actions/workflows/macos.yml)
-[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/NocoDB.svg?style=social&label=Follow%20Me!)](https://twitter.com/cjdunteman)
-
-These are my dotfiles for Ubuntu and MacOS. This will also work for [WSL](https://docs.microsoft.com/en-us/windows/wsl/). If you are going to fork this, be aware that there may be stuff you don't want/need on your computer, e.g. the Rust programming language, [Starship](https://github.com/starship/starship) or Node version manager.
+These are my dotfiles for MacOS, installable via one simple command.
 
 ## Install
 
-Ubuntu:
-
-`bash -c "$(wget -qO - https://raw.github.com/cjdunteman/dotfiles/install.sh)`
-
-macOS:
-
-`bash -c "$(curl -LsS https://raw.github.com/cjdunteman/dotfiles/install.sh)"`
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/yourusername/dotfiles/main/bootstrap.sh)"`
 
 ## Vim Setup
 

@@ -13,5 +13,5 @@ jobs:
     darwin:
         runs-on: macOS-latest
         steps:
-            - uses: actions/checkout@v2
-            - run: bash install.sh
+            - uses: actions/checkout@v6
+            - run: sh install.sh
