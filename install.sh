@@ -38,26 +38,27 @@ if ! command -v brew >/dev/null 2>&1; then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
+# Install Rosetta 2 (Docker recommends for Apple Silicon Macs)
+softwareupdate --install-rosetta
+
+# Install packages from Brewfile
 brew bundle
 
 # Install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 
 # Install starship
-curl -sS https://starship.rs/install.sh | sh
+curl -sS https://starship.rs/install.sh | sh -s -- -y
 
-# git config
+# Install rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+
+# Set git config
 git config --global user.name "CJ Dunteman"
 git config --global user.email cjdunteman@gmail.com
 git config --global core.excludesfile ~/dotfiles/.gitignore # global .gitignore
 git config --global core.editor vim
 git config --global init.defaultBranch main
-
-# Install rustup
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
-# Build Foundry from source
-cargo install --git https://github.com/gakonst/foundry --bins --locked
 
 # Source shell config
 source "$HOME/.zshrc"
