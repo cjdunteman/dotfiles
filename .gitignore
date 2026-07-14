@@ -1,6 +1,8 @@
-# Folder view configuration files
+# macOS and nix
 .DS_Store
 Desktop.ini
+result
+result-*
 
 # Thumbnail cache files
 ._*
