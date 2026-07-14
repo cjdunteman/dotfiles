@@ -1,10 +1,14 @@
 # [CJ](https://www.github.com/cjdunteman)'s dotfiles
 
-These are my dotfiles for MacOS, installable via one simple command.
+These are my dotfiles for MacOS, installable via one simple command. Easily reproducible.
 
 ## Install
 
-`sh -c "$(curl -fsSL https://raw.githubusercontent.com/yourusername/dotfiles/main/bootstrap.sh)"`
+```
+git clone https://github.com/cjdunteman/dotfiles.git
+cd dotfiles
+./bootstrap.sh
+```
 
 ## Vim Setup
 
@@ -23,5 +27,6 @@ I am using zsh as my default shell.
 
 Thanks to these resources for inspiration:
 
+- [Kun Chen](https://github.com/kunchenguid/dotfiles)'s dotfiles
 - [Mathias Bynens](https://github.com/mathiasbynens/dotfiles)' dotfiles
 - [Cătălin](https://github.com/alrra/dotfiles)'s dotfiles
