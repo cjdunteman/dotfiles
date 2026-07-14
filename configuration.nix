@@ -55,6 +55,7 @@
             "visual-studio-code"
             "codex"
             "cursor"
+            "starship"
         ];
     };
 }
